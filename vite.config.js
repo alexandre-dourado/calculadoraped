@@ -10,7 +10,7 @@ export default defineConfig({
       includeAssets: ['favicon.ico', 'apple-touch-icon.png'],
       manifest: {
         name: 'Calculadora Pediátrica Pro',
-        short_name: 'Dose Pro',
+        short_name: 'Calculadora Pediátrica',
         description: 'Cálculo de doses pediátricas com travas de segurança.',
         theme_color: '#1c1917', // stone-900
         background_color: '#f5f5f4', // stone-100
