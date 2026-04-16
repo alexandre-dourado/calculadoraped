@@ -1,0 +1,178 @@
+{
+  "versao": "2.0.0",
+  "farmacos": [
+    {
+      "id": "dipirona_gts",
+      "nome": "Dipirona Gotas (500mg/ml)",
+      "categoria": "Antitérmicos / Analgésicos",
+      "via": "VO",
+      "frequencia_h": 6,
+      "calculo_tipo": "gotas_por_kg",
+      "calculo_fator": 1,
+      "max_dose_unidade": 40,
+      "max_dose_diaria_mg": 4000,
+      "alertas_seguranca": "Dose máxima de 40 gotas/dose. Máx 4g/dia."
+    },
+    {
+      "id": "ibuprofeno_50",
+      "nome": "Ibuprofeno Gotas (50mg/ml)",
+      "categoria": "Antitérmicos / Analgésicos",
+      "via": "VO",
+      "frequencia_h": 6,
+      "calculo_tipo": "gotas_por_kg",
+      "calculo_fator": 1,
+      "max_dose_unidade": 40,
+      "alertas_seguranca": "Dose máxima de 40 gotas/dose. Evitar uso em menores de 6 meses."
+    },
+    {
+      "id": "ibuprofeno_100",
+      "nome": "Ibuprofeno Gotas (100mg/ml)",
+      "categoria": "Antitérmicos / Analgésicos",
+      "via": "VO",
+      "frequencia_h": 6,
+      "calculo_tipo": "gotas_por_kg",
+      "calculo_fator": 1,
+      "max_dose_unidade": 40,
+      "alertas_seguranca": "ATENÇÃO À CONCENTRAÇÃO (100mg/ml). Dose máxima 40 gotas. Evitar < 6 meses."
+    },
+    {
+      "id": "paracetamol_gts",
+      "nome": "Paracetamol Gotas (200mg/ml)",
+      "categoria": "Antitérmicos / Analgésicos",
+      "via": "VO",
+      "frequencia_h": 6,
+      "calculo_tipo": "gotas_por_kg",
+      "calculo_fator": 1,
+      "max_dose_unidade": 40,
+      "max_dose_diaria_mg": 4000,
+      "alertas_seguranca": "Dose máxima de 40 gotas/dose. Pode ser feito de 6/6h ou 8/8h."
+    },
+    {
+      "id": "amoxi_250",
+      "nome": "Amoxicilina (250mg/5ml)",
+      "categoria": "Antibióticos (Oral)",
+      "via": "VO",
+      "frequencia_h": 8,
+      "calculo_tipo": "peso_dividido_por",
+      "calculo_fator": 3,
+      "concentracao_mg_ml": 50,
+      "max_dose_diaria_mg": 1500,
+      "alertas_seguranca": "Tratamento padrão: 7 a 14 dias."
+    },
+    {
+      "id": "amoxi_clav_250",
+      "nome": "Amoxicilina + Clav. (250+62,5mg/5ml)",
+      "categoria": "Antibióticos (Oral)",
+      "via": "VO",
+      "frequencia_h": 8,
+      "calculo_tipo": "peso_dividido_por",
+      "calculo_fator": 3,
+      "concentracao_mg_ml": 50,
+      "alertas_seguranca": "Tratamento padrão: 7 a 14 dias."
+    },
+    {
+      "id": "amoxi_400",
+      "nome": "Amoxicilina (400mg/5ml)",
+      "categoria": "Antibióticos (Oral)",
+      "via": "VO",
+      "frequencia_h": 12,
+      "calculo_tipo": "peso_dividido_por",
+      "calculo_fator": 6,
+      "concentracao_mg_ml": 80,
+      "alertas_seguranca": "Atenção: Concentração maior (12/12h)."
+    },
+    {
+      "id": "amoxi_clav_400",
+      "nome": "Amoxicilina + Clav. (400+57mg/5ml)",
+      "categoria": "Antibióticos (Oral)",
+      "via": "VO",
+      "frequencia_h": 12,
+      "calculo_tipo": "peso_dividido_por",
+      "calculo_fator": 3,
+      "concentracao_mg_ml": 80,
+      "alertas_seguranca": "Atenção: Concentração maior (12/12h)."
+    },
+    {
+      "id": "azitromicina_200",
+      "nome": "Azitromicina (200mg/5ml)",
+      "categoria": "Antibióticos (Oral)",
+      "via": "VO",
+      "frequencia_h": 24,
+      "calculo_tipo": "peso_dividido_por",
+      "calculo_fator": 5,
+      "concentracao_mg_ml": 40,
+      "alertas_seguranca": "Dose única diária. Tratamento: 3 a 5 dias."
+    },
+    {
+      "id": "cefalexina_250",
+      "nome": "Cefalexina (250mg/5ml)",
+      "categoria": "Antibióticos (Oral)",
+      "via": "VO",
+      "frequencia_h": 6,
+      "calculo_tipo": "peso_dividido_por",
+      "calculo_fator": 4,
+      "concentracao_mg_ml": 50,
+      "max_dose_diaria_mg": 4000,
+      "alertas_seguranca": "Dose máxima diária de 4g."
+    },
+    {
+      "id": "prednisolona_3",
+      "nome": "Prednisolona (3mg/ml)",
+      "categoria": "Anti-alérgicos / Corticoides",
+      "via": "VO",
+      "frequencia_h": 24,
+      "calculo_tipo": "peso_dividido_por",
+      "calculo_fator": 3,
+      "concentracao_mg_ml": 3,
+      "alertas_seguranca": "Dose única pela manhã. Tratamento curto: 3 a 5 dias."
+    },
+    {
+      "id": "bromoprida_gts",
+      "nome": "Bromoprida Gotas (4mg/ml)",
+      "categoria": "Antieméticos",
+      "via": "VO",
+      "frequencia_h": 8,
+      "calculo_tipo": "gotas_por_kg",
+      "calculo_fator": 1,
+      "max_dose_unidade": 40,
+      "alertas_seguranca": "Dose máxima recomendada na bula: 1 a 2 gotas/kg/dia divididas. Consulte protocolo."
+    },
+    {
+      "id": "dexclorfeniramina_gts",
+      "nome": "Dexclorfeniramina Gotas",
+      "categoria": "Anti-alérgicos",
+      "via": "VO",
+      "frequencia_h": 8,
+      "calculo_tipo": "gotas_por_kg",
+      "calculo_fator": 0.5,
+      "alertas_seguranca": "Cálculo baseado em 1 gota para cada 2kg de peso. Verifique a apresentação comercial."
+    },
+    {
+      "id": "adrenalina_inj",
+      "nome": "Adrenalina Injetável (1mg/ml)",
+      "categoria": "Emergência",
+      "via": "IM (Coxa)",
+      "frequencia_h": 1,
+      "calculo_tipo": "peso_dividido_por",
+      "calculo_fator": 100,
+      "max_dose_unidade": 0.5,
+      "alertas_seguranca": "Uso em Anafilaxia. Máx 0.3 a 0.5ml. (Calculado como Peso ÷ 100, equivalente a Peso x 0,01)."
+    },
+    {
+      "id": "plasil",
+      "nome": "Metoclopramida (Plasil)",
+      "categoria": "Antieméticos",
+      "via": "N/A",
+      "calculo_tipo": "bloqueado",
+      "alertas_seguranca": "ALERTA VERMELHO: CONTRAINDICADO em menores de 18 anos. Alto risco de sintomas extrapiramidais graves."
+    },
+    {
+      "id": "ciprofloxacino",
+      "nome": "Ciprofloxacino / Quinolonas",
+      "categoria": "Antibióticos (Grave)",
+      "via": "N/A",
+      "calculo_tipo": "bloqueado",
+      "alertas_seguranca": "ALERTA VERMELHO: CONTRAINDICADO na rotina. Segurança não estabelecida em pediatria (< 18 anos)."
+    }
+  ]
+}
